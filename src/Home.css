@@ -1,0 +1,26 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height:400px;
+    margin:250px auto;
+}
+
+
+.select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20px;
+    background-color: #A7C0C7;
+    height:50px;
+    width: 330px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.select > a{
+    margin: 10px auto;
+
+}
