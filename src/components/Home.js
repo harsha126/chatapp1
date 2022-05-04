@@ -4,14 +4,16 @@ import SignUp from './SignUp'
 import '../Home.css'
 import'../Login.css'
 function Home() {
+  const [isLoginPage,setIsLoginPage] = React.useState(false);
   return (
     <div className='home-container'>
         <div className='select'>
-          <a>LogIN</a>
-          <a>SignUp</a>
+          <a onClick={()=>setIsLoginPage(true)}>LogIN</a>
+          <a onClick={()=>setIsLoginPage(false)}>SignUp</a>
         </div>
-        <Login/>
-        <SignUp/>
+        {
+          isLoginPage ? <Login/>:<SignUp/>
+        }
     </div>
   )
 }
