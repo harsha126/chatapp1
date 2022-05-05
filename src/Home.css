@@ -5,7 +5,7 @@
     align-items: center;
     width: 330px;
     height:400px;
-    margin:250px auto;
+    margin:200px auto;
 }
 
 
@@ -19,8 +19,11 @@
     width: 330px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    box-shadow:4px 0px 26px 0px lightgrey
 }
 .select > a{
     margin: 10px auto;
-
+    /* border :solid 2px; */
+    padding : 10px auto;
+    cursor: pointer;
 }

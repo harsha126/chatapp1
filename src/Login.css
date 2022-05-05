@@ -25,7 +25,7 @@
 }
 
 .lcontainer {
-    top:0px;
+    top: 0px;
     justify-content: center;
     align-items: center;
     background-color: #A7C0C7;
@@ -38,12 +38,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; 
-    box-shadow: -10px 8px 15px lightgray,10px 8px 15px lightgray;
+    text-align: center;
+    box-shadow: -10px 8px 15px lightgray, 10px 8px 15px lightgray;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     width: 330px;
-    height: 370px;
+    /* height: 370px; */
+    max-height: 390px;
+}
+
+.SignUpContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: -10px 8px 15px lightgray,
+        10px 8px 15px lightgray;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 330px;
+    /* height: 390px; */
+    max-height: 420px;
 }
 
 a {
@@ -52,4 +68,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.active{
+    border : solid black 1px;
+    border-radius:6px;
+    padding : ;
 }
